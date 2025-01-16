@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Stormtrooper",
+      "imgUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F517SjK6WnhS._AC_UL160_SR160%2C160_.jpg&f=1&nofb=1&ipt=23c7176c052c7e58e6157aa47255c6e586d36e95a71c9c063fea7427d6fc0f70&ipo=images",
+      "value": "75"
+    },
+    {
+      "id": "2",
+      "title": "Game Boy Classic",
+      "imgUrl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.idealo.com%2Ffolder%2FProduct%2F482%2F3%2F482306%2Fs1_produktbild_mittelgross%2Fnintendo-game-boy-classic.jpg&f=1&nofb=1&ipt=38901ebc898ab407202f7cc18a616c5e15bfb37cd0af931d944f4535f58a3165&ipo=images",
+      "value": "60"
+    },
+    {
+      "id": "3",
+      "title": "Funko Star Wars",
+      "imgUrl": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6394/6394687_sd.jpg;maxHeight=150;maxWidth=200",
+      "value": "140"
+    }
+  ]
+}

@@ -1,0 +1,253 @@
+:root {
+  --color-1: #5d04d9;
+  --color-2: #03318c;
+  --color-3: #ffffff;
+  --ff-main: "IBM Plex Mono", serif;
+  --ff-title: "Press Start 2P", serif;
+  --fs-1: 15px;
+  --fs-2: 16px;
+  --fs-3: 20px;
+  --fs-4: 24px;
+  --fw-1: 400;
+  --fw-2: 600;
+  --fw-3: 700;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.outer-container {
+  margin-inline: auto;
+  max-width: 430px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .outer-container {
+    margin-inline: auto;
+    max-width: 1440px;
+  }
+}
+
+header {
+  align-items: center;
+  background-color: var(--color-1);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  display: flex;
+  height: 96px;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+
+header div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+header img {
+  height: 56px;
+  width: 138px;
+}
+
+header h1 {
+  color: var(--color-3);
+  font-family: var(--ff-title);
+  font-size: var(--fs-4);
+  font-weight: var(--fw-1);
+}
+
+main {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 70px;
+  background-color: var(--color-3);
+}
+
+.add-products {
+  padding: 40px;
+}
+
+.add-products .container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.add-products h2 {
+  font-family: var(--ff-title);
+  font-size: var(--fs-4);
+  font-weight: var(--fw-1);
+  line-height: 1;
+  text-align: center;
+}
+
+.add-products .inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 100%;
+}
+
+.add-products .inputs input {
+  border-radius: 30px;
+  border: 3px solid var(--color-2);
+  color: var(--color-2);
+  font-family: var(--ff-main);
+  font-size: var(--fs-2);
+  font-weight: var(--fw-2);
+  padding: 10px;
+  width: 100%;
+}
+
+::placeholder {
+  color: var(--color-2);
+}
+
+.buttons button {
+  border-radius: 15px;
+  cursor: pointer;
+  font-family: var(--ff-main);
+  font-size: var(--fs-3);
+  font-weight: var(--fw-2);
+  height: 55px;
+  width: 164px;
+}
+
+.buttons button:first-child {
+  background-color: var(--color-2);
+  border: none;
+  color: var(--color-3);
+}
+
+.buttons button:last-child {
+  background-color: var(--color-3);
+  border: 3px solid var(--color-2);
+  color: var(--color-2);
+}
+
+.products-list {
+  padding: 58px 16px;
+}
+
+.products-list .container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 58px;
+}
+
+.products-list h2 {
+  font-family: var(--ff-title);
+  font-size: var(--fs-4);
+  font-weight: var(--fw-1);
+  line-height: 1;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  align-items: center;
+  background-color: var(--color-1);
+  border-radius: 10px;
+  border: 3px solid black;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 258px;
+  padding: 10px;
+  width: 196px;
+}
+
+.card img {
+  border-radius: 10px;
+  border: 2px solid black;
+  object-fit: cover;
+}
+
+.card-container-info {
+  width: 100%;
+}
+
+.card-container-info p {
+  color: var(--color-3);
+  font-family: var(--ff-main);
+  font-size: var(--fs-1);
+  font-weight: var(--fw-1);
+}
+
+.card-container-value {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.card-container-value p {
+  color: var(--color-3);
+  font-family: var(--ff-main);
+  font-size: var(--fs-1);
+  font-weight: var(--fw-3);
+}
+
+.thrash-button {
+  background-color: transparent;
+  border: none;
+}
+
+.card-container-value img {
+  border: none;
+  cursor: pointer;
+  height: 24px;
+  object-fit: none;
+  width: 24px;
+}
+
+footer {
+  align-items: center;
+  background-color: var(--color-1);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  display: flex;
+  flex-direction: column;
+  height: 168px;
+  justify-content: space-between;
+  padding: 32px;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+
+footer div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+footer img {
+  height: 56px;
+  width: 138px;
+}
+
+footer div p {
+  color: var(--color-3);
+  font-family: var(--ff-title);
+  font-size: var(--fs-4);
+  font-weight: var(--fw-1);
+}
+
+footer p {
+  color: var(--color-3);
+  font-family: var(--ff-main);
+  font-size: var(--fs-2);
+  font-weight: var(--fw-1);
+}
